@@ -15,8 +15,9 @@ if user_input == "1"
 elsif user_input == "2"
   game = Game.new(Players::Human.new("X"), Player::Computer.new("O"), Board.new)
 elsif user_input == "3"
-  game = Game.new(Players::Human.new("X") Players::Human.new("O"))
-
+  game = Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
+else
+  puts "Valid option, try again...."
 # until game.won?
 #   game.play
 # end
