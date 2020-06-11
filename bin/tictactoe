@@ -8,7 +8,7 @@ puts "Or would you rather play on your own ? press 2."
 puts "Choose 1 v 1 to challenge a friend. press 3."
 
 user_input = gets.strip
-game = ""
+game = nil
 
 if user_input == "1"
   game = Game.new(Player::Computer.new("X"), Player::Computer.new("O"), Board.new)
