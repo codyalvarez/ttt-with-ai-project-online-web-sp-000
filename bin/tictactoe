@@ -6,6 +6,8 @@ puts "Welcome to Tic Tac Toe!"
 puts "Would you like to start an AI game ?"
 puts "Or would you rather play on your own ?"
 puts "Choose 1 v 1 to challenge a friend"
+
+user_input = gets.strip
 game = Game.new
 # until game.won?
 #   game.play
