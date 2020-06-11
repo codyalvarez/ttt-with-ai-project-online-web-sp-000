@@ -18,6 +18,7 @@ elsif user_input == "3"
   game = Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
 else
   puts "Valid option, try again...."
+end
 # until game.won?
 #   game.play
 # end
